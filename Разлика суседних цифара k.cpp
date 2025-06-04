@@ -42,12 +42,3 @@ int main() {
 
     return 0;
 }
-
-    // Prva cifra ne može biti 0
-    for (int prva_cifra = 1; prva_cifra <= 9; ++prva_cifra) {
-        vector<int> broj = {prva_cifra};
-        generisi(1, prva_cifra, broj);
-    }
-
-    return 0;
-}
